@@ -1,0 +1,188 @@
+body {
+	text-align: center;
+	background-color: #282828;
+	font-family: Helvetica-Neue, sans-serif;
+	font-size: 12px;
+}
+.clear {
+	clear: both;
+}
+#container {
+	width: 900px;
+	background-color: #f9f9f9;
+	margin: 100px auto auto auto;
+	box-shadow:  #909090 1px 2px 1px 1px;
+	padding-bottom: 35px;
+	position: relative;
+	text-align: left;
+}
+#mainList {
+	list-style-type: none;
+	width: 485px;
+	position: relative;
+	left: 215px;
+	top: 35px;
+	margin: 0px 0px 60px 0px;
+	padding: 0px;
+}
+.sublist {
+	list-style-type: none;
+	width: 485px;
+	margin: 0px;
+	padding: 0px;
+}
+.mainItem {
+	position: relative;
+	width: 485px;
+	margin-bottom: 8px;
+}
+.subItem {
+	position: relative;
+	width: 485px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+.picDiv {
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+.userPic {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+.userPic > img {
+	max-height: 40px;
+	max-width: 40px;
+	padding: 5px;
+}
+.contentDiv {
+	float: left;
+	width: 365px;
+	border: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 4px;
+	margin-left: 8px;
+}
+.name {
+	float: left;
+	margin: 0px;
+	padding: 10px 0px 0px 12px;
+	color: #303030;
+}
+.u_name {
+	font-weight: bold;
+	color: #303030;
+}
+.time {
+	float: right;
+	margin: 0px;
+	padding: 10px 12px 0px 0px;
+	color: #303030;
+}
+.cont {
+	margin: 0px 8px 0px 0px;
+	padding: 3px 0px 8px 12px;
+	color: #969696;
+}
+.contReplyDiv {
+	float: left;
+	width: 337px;
+	border: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 4px;
+	margin-left: 8px;
+}
+.buttonsDiv {
+	position: relative;
+	float: left;
+	width: 46px;
+	height: 52px;
+	margin-left: 8px;
+}
+.reply {
+	position: absolute;
+	top: 4px;
+	display: none;
+}
+.edit {
+	position: absolute;
+	top: 4px;	
+	display: none;
+}
+.delete {
+	position: absolute;
+	top: 28px;	
+	display: none;
+}
+li:hover .reply {
+	display: block;
+}
+li:hover .edit {
+	display: block;
+}
+li:hover .delete {
+	display: block;
+}
+.arrow {
+	position: relative;
+	height: 52px;
+	width: 28px;
+	float: left;
+}
+.arrow > img {
+	position: absolute;
+	top: 20px;
+}
+#addText {
+	width: 425px;
+	height: 36px;
+	border: 1px solid #e3e3e3;
+	background-color: #ffffff;
+	border-radius: 4px;
+	position: relative;
+	left: 215px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+#addText > a {
+	font-family: helvetica, sans-serif;
+	font-size: 12px;
+	color: white;
+	float: right;
+	text-decoration: none;
+	width: 60px;
+	height: 18px;
+	background-color: #d1ddec;
+	margin: 3px 3px auto auto;
+	border-radius: 3px 3px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+#addText > a:hover {
+	background-color: #3d8aea;
+}
+#addText > a:active {
+	background-color: #185197;
+}
+#addText > input {
+	float: left;
+	margin-top: 1px;
+	margin-left: 0px;
+	padding-left: 13px;
+	width: 355px;
+	border: none;
+	height: 34px;
+	color: #aeaeae;
+	font-family: Helvetica-Neue, sans-serif;
+	outline: none;
+	font-size: 12px;
+}
+.newItem, .newSubItem {
+	display: none;
+}
